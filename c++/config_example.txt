@@ -1,0 +1,22 @@
+# 检测系统配置文件示例
+# 格式：key=value
+
+# 模型配置
+model_path=D:/RM26-DetectionModel/model/0708.onnx
+
+# 视频配置
+video_path=D:/RM26-DetectionModel/8radps.avi
+
+# 推理设备配置
+device=CPU
+
+# 检测参数
+detect_color=1
+confidence_threshold=0.45
+nms_threshold=0.45
+
+# 说明：
+# detect_color: 0=红色, 1=蓝色
+# device: CPU, GPU, VPU等
+# confidence_threshold: 置信度阈值 (0.0-1.0)
+# nms_threshold: 非极大值抑制阈值 (0.0-1.0) 

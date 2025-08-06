@@ -1,0 +1,3 @@
+D:/detect26_C++/c++/build/CMakeFiles/modular_main.dir
+D:/detect26_C++/c++/build/CMakeFiles/ALL_BUILD.dir
+D:/detect26_C++/c++/build/CMakeFiles/ZERO_CHECK.dir
