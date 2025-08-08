@@ -30,7 +30,7 @@ int main() {
         PerformanceMonitor performanceMonitor;
         
         // ==================== 初始化BYTETracker跟踪器 ====================
-        BYTETracker tracker(60, 60); // 帧率30fps，跟踪缓冲区30帧
+        BYTETracker tracker(120, 120); // 帧率60fps，跟踪缓冲区60帧
         
         // ==================== 初始化视频捕获 ====================
         cv::VideoCapture cap(config.getVideoPath());

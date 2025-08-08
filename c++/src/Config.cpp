@@ -3,12 +3,12 @@
 #include <fstream>
 
 Config::Config() 
-    : modelPath_("D:/RM26-DetectionModel/model/0708.onnx"),
-      videoPath_("D:/RM26-DetectionModel/8radps.avi"),
+    : modelPath_("/home/ubuntu/桌面/RM26_Detetc_Li/RM26/model/new.onnx"),
+      videoPath_("/home/ubuntu/桌面/RM26_Detetc_Li/RM26/video/2.mp4"),
       device_("CPU"),
       detectColor_(1),
-      confidenceThreshold_(0.45f),
-      nmsThreshold_(0.45f) {
+      confidenceThreshold_(0.7f),
+      nmsThreshold_(0.7f) {
 }
 
 void Config::setModelPath(const std::string& path) {

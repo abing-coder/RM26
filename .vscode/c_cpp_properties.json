@@ -1,20 +1,17 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/opencv4",
+                "/usr/include/eigen3"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x64",
-            "configurationProvider": "ms-vscode.cmake-tools"
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

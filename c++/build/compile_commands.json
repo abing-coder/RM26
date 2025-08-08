@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/src/main_modular.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/main_modular.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/main_modular.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/src/Detector.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/Detector.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/Detector.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/src/ImageProcessor.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/ImageProcessor.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/ImageProcessor.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/src/Visualizer.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/Visualizer.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/Visualizer.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/src/PerformanceMonitor.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/PerformanceMonitor.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/PerformanceMonitor.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/src/Config.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/Config.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/src/Config.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/ncnn/cpp/src/BYTETracker.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/BYTETracker.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/BYTETracker.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/ncnn/cpp/src/STrack.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/STrack.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/STrack.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/ncnn/cpp/src/kalmanFilter.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/kalmanFilter.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/kalmanFilter.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/ncnn/cpp/src/lapjv.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/lapjv.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/lapjv.cpp"
+},
+{
+  "directory": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/build",
+  "command": "/usr/bin/g++ -DOV_THREAD=OV_THREAD_TBB -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/include -I/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/include -isystem /usr/include/opencv4 -isystem /home/ubuntu/l_openvino_toolkit_ubuntu22_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include -isystem /usr/include/eigen3 -g -Wno-error=deprecated-declarations -o CMakeFiles/modular_main.dir/ncnn/cpp/src/utils.cpp.o -c /home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/utils.cpp",
+  "file": "/home/ubuntu/桌面/RM26_Detetc_Li/RM26/c++/ncnn/cpp/src/utils.cpp"
+}
+]
