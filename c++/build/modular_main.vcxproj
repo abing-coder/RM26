@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;OV_THREAD=OV_THREAD_TBB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -132,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -153,10 +153,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OV_THREAD=OV_THREAD_TBB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -179,7 +179,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -200,10 +200,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OV_THREAD=OV_THREAD_TBB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -226,7 +226,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64/runtime/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -246,10 +246,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OV_THREAD=OV_THREAD_TBB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;C:\w_openvino_toolkit_windows_2024.6.0.17404.4c0f47d2335_x86_64\runtime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\detect26_C++\eigen-3.4.0;C:\opencv\build\include;C:\opencv\build\include\opencv2;D:\detect26_C++\c++\include;D:\detect26_C++\c++\ncnn\cpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

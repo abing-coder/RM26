@@ -12,7 +12,7 @@ find_package(OpenVINO REQUIRED)
 
 # ==================== Eigen库配置 ====================
 # 直接包含Eigen库头文件目录
-include_directories("C:/eigen-3.4.0")
+include_directories("D:/detect26_C++/eigen-3.4.0")
 
 # ==================== 包含目录配置 ====================
 # OpenCV头文件包含目录
