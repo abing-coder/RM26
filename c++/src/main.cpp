@@ -15,13 +15,14 @@ cv::Rect compute_bounding_box(const std::vector<cv::Point2f>& points) {
     // 初始化最小最大值为第一个点的坐标
     float min_x = points[0].x, max_x = points[0].x;
     float min_y = points[0].y, max_y = points[0].y;
-    
+    std::cout << points.size() << std::endl;
     // 遍历所有关键点，更新边界框的坐标范围
     for (const auto& p : points) {
         if (p.x < min_x) min_x = p.x;  // 更新最小x坐标
         if (p.x > max_x) max_x = p.x;  // 更新最大x坐标
         if (p.y < min_y) min_y = p.y;  // 更新最小y坐标
         if (p.y > max_y) max_y = p.y;  // 更新最大y坐标
+        
     }
     
     // 返回包含所有关键点的矩形边界框
@@ -32,7 +33,7 @@ cv::Rect compute_bounding_box(const std::vector<cv::Point2f>& points) {
 int main() {
     // ==================== 配置参数 ====================
     std::string model_path = "D:/RM26-DetectionModel/model/0708.onnx";  // ONNX模型文件路径
-    std::string video_path = "D:/RM26-DetectionModel/8radps.avi";       // 输入视频文件路径
+    std::string video_path = "D:/detect26_C++/d21972b4de198a724562768fd229a257.mp4";       // 输入视频文件路径
     std::string device = "CPU";        // 推理设备类型（CPU/GPU/VPU等）
     int detect_color = 1;              // 检测颜色：0表示红色，1表示蓝色
 

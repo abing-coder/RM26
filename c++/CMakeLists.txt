@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.20)
 
 # 项目名称
 project(DetectionSystem)
+set(CMAKE_CXX_STANDARD 17)
 
 # ==================== OpenVINO配置 ====================
 # 设置OpenVINO的安装路径

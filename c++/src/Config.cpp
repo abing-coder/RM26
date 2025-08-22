@@ -4,7 +4,7 @@
 
 Config::Config() 
     : modelPath_("D:/RM26-DetectionModel/model/0708.onnx"),
-      videoPath_("D:/RM26-DetectionModel/8radps.avi"),
+      videoPath_("D:\\detect26_C++\\d21972b4de198a724562768fd229a257.mp4"),
       device_("CPU"),
       detectColor_(1),
       confidenceThreshold_(0.45f),
@@ -92,6 +92,7 @@ bool Config::loadFromFile(const std::string& filename) {
             } else if (key == "nms_threshold") {
                 nmsThreshold_ = std::stof(value);
             }
+
         }
     }
     
